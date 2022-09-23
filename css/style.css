@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+body div.container {
+  margin: 0 10rem;
+}
+
+header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5rem;
+  margin-top: 2rem;
+}
+header h1 {
+  font-family: "Arial Narrow Bold", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  box-shadow: 0px 140px #03faee;
+}
+header nav a {
+  color: #000000;
+  font-size: 1.1rem;
+  padding: 0 1rem;
+  text-decoration: none;
+}
+
+main {
+  align-items: center;
+  display: flex;
+}
+main div.leftContainer div.leftShadow h2 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 55px;
+  letter-spacing: 10px;
+  line-height: 70px;
+}
+main div.leftContainer p {
+  color: #8b8b8b;
+  line-height: 2rem;
+  padding: 2rem 0;
+}
+main div.leftContainer button {
+  background-color: #03faee;
+  border: 1px dotted #000000;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  padding: 1rem 2rem;
+  cursor: pointer;
+}
+main div.rightContainer img {
+  height: 30rem;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+}
+section div.card {
+  padding: 1rem 0;
+}
+section div.card div.circle {
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 50%;
+  box-shadow: -5px 0px #03faee;
+  display: inline-block;
+  margin: 0.5rem -1rem;
+  padding: 1rem;
+}
+section div.card div.circle p {
+  height: 1.2rem;
+  text-align: center;
+  width: 1.2rem;
+  box-shadow: 0px 60px #03faee;
+}
+section div.card h2.tituloCircle {
+  margin: 1rem 0 0.5rem;
+}
+section div.card p.textCircle {
+  width: 20vw;
+}
+
+footer {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 10rem 0 2rem;
+}
+footer div.sociales {
+  display: flex;
+}
+footer div.sociales div.redes {
+  background-color: #ffffff;
+  border-radius: 50%;
+  box-shadow: -5px 0px #03faee;
+  margin: 0 1rem;
+  padding: 1rem;
+}
+footer div.sociales img {
+  height: 1.2rem;
+  width: 1.2rem;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
