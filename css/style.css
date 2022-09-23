@@ -22,7 +22,7 @@ header h1 {
   font-family: "Arial Narrow Bold", sans-serif;
   font-size: 2rem;
   font-weight: bold;
-  box-shadow: 0px 150px #03faee;
+  box-shadow: 0px 180px #03faee;
 }
 header nav a {
   color: #000000;
@@ -34,12 +34,17 @@ header nav a {
 main {
   align-items: center;
   display: flex;
+  width: 100%;
+}
+main div.leftContainer {
+  width: 50vw;
 }
 main div.leftContainer div.leftShadow h2 {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  font-size: 55px;
+  font-size: 4.5rem;
   letter-spacing: 10px;
-  line-height: 70px;
+  line-height: 80px;
+  margin: 0.5rem 0;
 }
 main div.leftContainer p {
   color: #8b8b8b;
@@ -54,8 +59,12 @@ main div.leftContainer button {
   padding: 1rem 2rem;
   cursor: pointer;
 }
+main div.rightContainer {
+  display: flex;
+  width: 50vw;
+}
 main div.rightContainer img {
-  height: 30rem;
+  height: 35rem;
 }
 
 section {
