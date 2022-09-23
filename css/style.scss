@@ -78,7 +78,7 @@ section {
     display: flex;
     justify-content: space-between;
     div.card {
-        background-color: rgb(0, 0, 0, 0.1);
+        background-color: $color-secondary;
         border-radius: 5px;
         padding: 1rem 0;
         padding: 2rem;

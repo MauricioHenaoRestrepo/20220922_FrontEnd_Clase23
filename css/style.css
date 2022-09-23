@@ -74,7 +74,7 @@ section {
   justify-content: space-between;
 }
 section div.card {
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: #eeeeee;
   border-radius: 5px;
   padding: 1rem 0;
   padding: 2rem;
