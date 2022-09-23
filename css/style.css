@@ -19,10 +19,11 @@ header {
   margin-top: 2rem;
 }
 header h1 {
+  box-shadow: 0px 180px #03faee;
+  cursor: pointer;
   font-family: "Arial Narrow Bold", sans-serif;
   font-size: 2rem;
   font-weight: bold;
-  box-shadow: 0px 180px #03faee;
 }
 header nav a {
   color: #000000;
@@ -55,9 +56,10 @@ main div.leftContainer button {
   background-color: #03faee;
   border: 1px dotted #000000;
   border-radius: 5px;
-  font-size: 1.2rem;
-  padding: 1rem 2rem;
   cursor: pointer;
+  font-size: 1.2rem;
+  margin-right: 0.5rem;
+  padding: 1rem 2rem;
 }
 main div.rightContainer {
   display: flex;
@@ -72,25 +74,26 @@ section {
   justify-content: space-between;
 }
 section div.card {
-  padding: 1rem 0;
   background-color: rgba(0, 0, 0, 0.1);
-  padding: 2rem;
   border-radius: 5px;
+  padding: 1rem 0;
+  padding: 2rem;
 }
 section div.card div.circle {
-  background-color: #ffffff;
-  border: 1px solid #000000;
+  background-color: #fff;
+  border: 1px solid #000;
   border-radius: 50%;
   box-shadow: -5px 0px #03faee;
   display: inline-block;
+  font-weight: bold;
   margin: 0.5rem -1rem;
   padding: 1rem;
 }
 section div.card div.circle p {
+  box-shadow: 0px 60px #03faee;
   height: 1.2rem;
   text-align: center;
   width: 1.2rem;
-  box-shadow: 0px 60px #03faee;
 }
 section div.card h2.tituloCircle {
   margin: 1rem 0 0.5rem;
@@ -116,7 +119,7 @@ footer div.sociales div.redes {
   padding: 1rem;
 }
 footer div.sociales img {
+  cursor: pointer;
   height: 1.2rem;
   width: 1.2rem;
-  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
