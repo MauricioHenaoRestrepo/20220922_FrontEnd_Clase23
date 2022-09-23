@@ -73,6 +73,9 @@ section {
 }
 section div.card {
   padding: 1rem 0;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  border-radius: 5px;
 }
 section div.card div.circle {
   background-color: #ffffff;
